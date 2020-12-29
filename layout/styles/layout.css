@@ -283,7 +283,7 @@ table a, #comments a{background-color:inherit;}
 	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
 	.fl_left, .fl_right{display:block; float:none;}
 	.group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
-	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 50px 0; padding:0;}
+	.one_half, .one_third, .two_third, .one_quarter, .one_quarter2, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 50px 0; padding:0;}
 
 	#header{text-align:center;}
 	#header #logo{margin-bottom:15px;}
@@ -329,6 +329,12 @@ table a, #comments a{background-color:inherit;}
 	padding: 10px;
 }
 
+.contact2{
+	color:white;
+	padding: 10px;
+	font-size: 20px;
+}
+
 .firstliter {
 	color: maroon;
 	font-weight: 600
@@ -341,7 +347,7 @@ table a, #comments a{background-color:inherit;}
 }
 
 #wind {
-	width: 50%px;
+	width: 50%;
 	margin-top: 200px;
 	text-align: center;
 	padding: 15px;
@@ -384,4 +390,33 @@ table a, #comments a{background-color:inherit;}
 
 #2w1 {
 	width: 100px;
+}
+
+.gall{
+	padding-top: 20px;
+	padding-left: 100px;
+}
+
+#map {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.firstlt {
+	color: #15AD72;
+	font-weight: 600
+}
+
+.one_quarter2 {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	width: 200px;
+	height: 400px;
+	margin-bottom: 10px;
+	background: aliceblue;
+}
+
+#qwe {
+
 }
